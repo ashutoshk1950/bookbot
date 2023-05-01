@@ -1,1 +1,1 @@
-Bookbot is a very basic project program!!!
+Bookbot is a very basic python program!!!
