@@ -32,8 +32,6 @@ def count_letters(text):
                 dict_count_letters[i.lower()] = 0
     return dict_count_letters
 
-def print_report(text):
-    resultDict = count_letters(text)
     
 
 
