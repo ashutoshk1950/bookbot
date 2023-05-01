@@ -3,11 +3,10 @@ def main():
     text = read_book(book_path)
     no_of_words = count_words(text)
     letter_count = count_letters(text)
-    print(f"--- Begin report of {book_path} ---")
-    
+
     resultList = list(letter_count.items())
     resultList.sort()
-    print(f"--- Begin report of books/frankenstein.txt ---")
+    print(f"--- Begin report of {book_path} ---")
     for item in resultList:
         if item[0].isalpha():
             print(f"The {item[0]} character was found {item[1]} times")
